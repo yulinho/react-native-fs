@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\RNP\\106.iWechatvideo\\iWechatvideo\\node_modules\\react-native-fs',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\react-native-fs\\1.3.5\\package.tgz',
+10 verbose tar pack   'C:\\RNP\\106.iWechatvideo\\iWechatvideo\\node_modules\\react-native-fs' ]
+11 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package.tgz
+12 verbose folder C:\RNP\106.iWechatvideo\iWechatvideo\node_modules\react-native-fs
+13 info prepublish react-native-fs@1.3.5
+14 verbose addLocalTarball adding from inside cache C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package.tgz
+15 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+16 silly cache afterAdd react-native-fs@1.3.5
+17 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package\package.json not in flight; writing
+18 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package\package.json written
+20 silly publish { name: 'react-native-fs',
+20 silly publish   version: '1.3.5',
+20 silly publish   description: 'Native filesystem access for react-native',
+20 silly publish   main: 'FS.common.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+ssh://git@github.com/johanneslumpe/react-native-fs.git' },
+20 silly publish   keywords:
+20 silly publish    [ 'react-component',
+20 silly publish      'react-native',
+20 silly publish      'ios',
+20 silly publish      'android',
+20 silly publish      'fs',
+20 silly publish      'filesystem' ],
+20 silly publish   author:
+20 silly publish    { name: 'Johannes Lumpe',
+20 silly publish      email: 'johannes@lum.pe',
+20 silly publish      url: 'https://github.com/johanneslumpe' },
+20 silly publish   license: 'MIT',
+20 silly publish   dependencies: { 'base-64': '^0.1.0', bluebird: '^2.9.25', utf8: '^2.1.1' },
+20 silly publish   devDependencies: { 'react-native': '*' },
+20 silly publish   gitHead: '06bdba89fa7b64ad4f696746269fe6607069c335',
+20 silly publish   bugs: { url: 'https://github.com/johanneslumpe/react-native-fs/issues' },
+20 silly publish   homepage: 'https://github.com/johanneslumpe/react-native-fs#readme',
+20 silly publish   _id: 'react-native-fs@1.3.5',
+20 silly publish   _shasum: 'ebd32587b5ad70eb951bbbf49db738b11430da56',
+20 silly publish   _from: '.',
+20 silly publish   _npmVersion: '3.3.12',
+20 silly publish   _nodeVersion: '4.2.2',
+20 silly publish   _npmUser: { name: 'johanneslumpe', email: 'johannes@johanneslumpe.de' },
+20 silly publish   dist:
+20 silly publish    { shasum: '1d761ac32f0385297e885eb9e01efd500c947a46',
+20 silly publish      size: 224594,
+20 silly publish      noattachment: false,
+20 silly publish      tarball: 'http://registry.npm.taobao.org/react-native-fs/download/react-native-fs-1.2.0.tgz' },
+20 silly publish   maintainers:
+20 silly publish    [ { name: 'cjdell', email: 'me@chrisdell.info' },
+20 silly publish      { name: 'johanneslumpe', email: 'johannes@johanneslumpe.de' } ],
+20 silly publish   directories: {},
+20 silly publish   publish_time: 1453978580203,
+20 silly publish   _cnpm_publish_time: 1453978580203,
+20 silly publish   _resolved: 'https://registry.npm.taobao.org/react-native-fs/download/react-native-fs-1.2.0.tgz',
+20 silly publish   readme: 'ERROR: No README data found!' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name react-native-fs
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry http://42.121.99.36:8000/
+25 silly mapToRegistry uri http://42.121.99.36:8000/react-native-fs
+26 verbose publish registryBase http://42.121.99.36:8000/
+27 silly publish uploading C:\Users\Administrator\AppData\Roaming\npm-cache\react-native-fs\1.3.5\package.tgz
+28 verbose request uri http://42.121.99.36:8000/react-native-fs
+29 verbose request sending authorization for write operation
+30 info attempt registry request try #1 at 16:00:05
+31 verbose request using bearer token for auth
+32 verbose request id 60c00717422e0e0a
+33 http request PUT http://42.121.99.36:8000/react-native-fs
+34 http 413 http://42.121.99.36:8000/react-native-fs
+35 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+35 verbose headers   'content-type': 'application/json; charset=utf-8',
+35 verbose headers   'content-length': '42',
+35 verbose headers   vary: 'Accept-Encoding',
+35 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jHZ',
+35 verbose headers   date: 'Wed, 11 May 2016 08:01:13 GMT',
+35 verbose headers   connection: 'keep-alive' }
+36 verbose request invalidating C:\Users\Administrator\AppData\Roaming\npm-cache\42.121.99.36_8000\react-native-fs on PUT
+37 error publish Failed PUT 413
+38 verbose stack Error: request entity too large : react-native-fs
+38 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+38 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+38 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+38 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+38 verbose stack     at emitTwo (events.js:87:13)
+38 verbose stack     at Request.emit (events.js:172:7)
+38 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+38 verbose stack     at emitOne (events.js:82:20)
+38 verbose stack     at Request.emit (events.js:169:7)
+38 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+39 verbose statusCode 413
+40 verbose pkgid react-native-fs
+41 verbose cwd C:\RNP\106.iWechatvideo\iWechatvideo\node_modules\react-native-fs
+42 error Windows_NT 10.0.10586
+43 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+44 error node v4.4.1
+45 error npm  v2.14.20
+46 error code E413
+47 error request entity too large : react-native-fs
+48 error If you need help, you may report this error at:
+48 error     <https://github.com/npm/npm/issues>
+49 verbose exit [ 1, true ]
